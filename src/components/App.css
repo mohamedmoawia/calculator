@@ -1,0 +1,26 @@
+#body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(90deg, grey,rgb(255, 197, 197));
+    height: 100vh;
+}
+.container{
+    width: 25%;
+    height: fit-content;
+    background-color: black;
+    border: 1px solid gray;
+}
+#display{
+    padding: 5px;
+    font-family: digital;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+@media(max-width: 830px){
+ .container{
+    width: fit-content;
+ }    
+}
